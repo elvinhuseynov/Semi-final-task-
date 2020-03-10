@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  width: 1349px;
+  position: relative;
+}
+
+body div {
+  position: relative;
+  width: 1170px;
+  height: 100px;
+  margin: auto;
+  background-color: white;
+}
+
+body div div {
+  position: fixed;
+  z-index: 1111;
+}
+
+body div div img {
+  width: 184px;
+  position: absolute;
+  height: 100%;
+  left: 36px;
+}
+
+body div div ul {
+  float: right;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 16px;
+}
+
+body div div ul a {
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  height: 100%;
+  float: left;
+  display: table;
+  padding: 0px 19px;
+  letter-spacing: 2px;
+  margin-top: -14px;
+  margin-left: 10px;
+  color: gray;
+}
+
+body div div ul a:hover {
+  opacity: 0.3;
+}
+
+body div div ul a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  font-family: "Merriweather", serif;
+  font-size: 13px;
+}
+
+body .secondpart {
+  width: 1170px;
+  height: 619px;
+  position: relative;
+}
+
+body .secondpart img {
+  left: 36px;
+  position: absolute;
+}
+
+body .thirdpart {
+  width: 1170px;
+  height: 515px;
+}
+
+body .thirdpart #pic1 {
+  position: absolute;
+  left: 36px;
+  top: 45px;
+}
+
+body .thirdpart #pic2 {
+  position: absolute;
+  left: 411px;
+  top: 45px;
+}
+
+body .thirdpart #pic3 {
+  top: 45px;
+  left: 49em;
+  position: absolute;
+}
+
+body .fourthpart {
+  width: 1170px;
+  height: 400px;
+  text-align: center;
+  position: absolute;
+  left: 90px;
+  z-index: 3;
+}
+
+body .fourthpart .firstline {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 330px;
+  width: 1000px;
+  left: 85px;
+}
+
+body .fourthpart h4 {
+  position: absolute;
+  left: 39%;
+  letter-spacing: 3px;
+  top: 43px;
+  font-family: "Muli", sans-serif;
+}
+
+body .fourthpart p {
+  position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  top: 112px;
+  width: 720px;
+  left: 247px;
+  /* text-align: justify; */
+  opacity: 0.6;
+}
+
+body .fourthpart a .button {
+  font-family: "Lato", sans-serif;
+  border: 2px solid;
+  padding: 9px;
+  background-color: white;
+  font-weight: 600;
+  position: absolute;
+  top: 260px;
+  left: 509px;
+  cursor: pointer;
+  width: 149px;
+}
+
+body .fourthpart a .button:hover {
+  background-color: black;
+  color: white;
+}
+
+body .fifthpart {
+  width: 1170px;
+  height: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 1634px;
+  left: 90px;
+}
+
+body .fifthpart #pic4 {
+  position: absolute;
+  left: 36px;
+  top: 45px;
+}
+
+body .fifthpart #pic5 {
+  position: absolute;
+  left: 411px;
+  top: 45px;
+}
+
+body .fifthpart #pic6 {
+  top: 45px;
+  left: 49em;
+  position: absolute;
+}
+
+body .fifthpart #p1 {
+  position: absolute;
+  top: 323px;
+  left: 76px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+body .fifthpart #p2 {
+  position: absolute;
+  top: 361px;
+  left: 62px;
+  opacity: 0.6;
+  font-family: "Josefin Sans", sans-serif;
+  width: 309px;
+  text-align: -webkit-center;
+}
+
+body .fifthpart #p3 {
+  position: absolute;
+  top: 323px;
+  left: 437px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+body .fifthpart #p4 {
+  position: absolute;
+  top: 361px;
+  left: 430px;
+  opacity: 0.6;
+  font-family: "Josefin Sans", sans-serif;
+  width: 309px;
+  text-align: -webkit-center;
+}
+
+body .fifthpart #p5 {
+  position: absolute;
+  top: 323px;
+  left: 836px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+body .fifthpart #p6 {
+  position: absolute;
+  top: 361px;
+  left: 807px;
+  opacity: 0.6;
+  font-family: "Josefin Sans", sans-serif;
+  width: 309px;
+  text-align: -webkit-center;
+}
+
+body .secondline {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 930px;
+  width: 1100px;
+  left: 32px;
+  z-index: 999;
+}
+
+body .sixthpart {
+  width: 1170px;
+  height: 200px;
+  position: absolute;
+  top: 2234px;
+  left: 90px;
+}
+
+body .sixthpart div {
+  width: 513px;
+  height: 54px;
+  position: absolute;
+  left: 333px;
+  top: -7px;
+}
+
+body .sixthpart a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  display: table-cell;
+  padding: 0 10px;
+  font-size: 14px;
+  position: relative;
+}
+
+body .sixthpart a:hover {
+  opacity: 0.3;
+}
+
+body .thirdline {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 950px;
+  width: 1100px;
+  left: 32px;
+}
+
+body .seventhpart {
+  width: 1170px;
+  height: 200px;
+  position: absolute;
+  top: 2297px;
+  left: 90px;
+}
+
+body .seventhpart img {
+  position: absolute;
+  left: 506px;
+  top: 52px;
+}
+
+body .seventhpart div {
+  position: relative;
+  width: 100px;
+  height: 10px;
+}
+
+body .seventhpart div .fa-facebook {
+  position: absolute;
+  top: 78px;
+  color: black;
+  font-size: 22px;
+  left: -28px;
+  cursor: pointer;
+}
+
+body .seventhpart div .fa-facebook:hover {
+  color: gray;
+}
+
+body .seventhpart div .fa-twitter {
+  position: absolute;
+  top: 78px;
+  color: black;
+  font-size: 22px;
+  left: 14px;
+  cursor: pointer;
+}
+
+body .seventhpart div .fa-twitter:hover {
+  color: gray;
+}
+
+body .seventhpart div .fa-pinterest {
+  position: absolute;
+  top: 78px;
+  color: black;
+  font-size: 22px;
+  left: 60px;
+  cursor: pointer;
+}
+
+body .seventhpart div .fa-pinterest:hover {
+  color: gray;
+}
+
+body .seventhpart div .fa-google-plus {
+  position: absolute;
+  top: 78px;
+  color: black;
+  font-size: 22px;
+  left: 107px;
+  cursor: pointer;
+}
+
+body .seventhpart div .fa-google-plus:hover {
+  color: gray;
+}
+
+body .seventhpart div .fa-copyright {
+  position: absolute;
+  top: 130px;
+  color: gray;
+  font-size: 14px;
+  left: -34px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+body .seventhpart div .copy {
+  text-decoration: none;
+  color: gray;
+  opacity: 0.7;
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  top: 127px;
+  left: -15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=sf.css.map */
